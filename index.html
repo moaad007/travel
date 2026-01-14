@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
-    <title>Document</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/dist/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Travel Kech - Your Marrakech Travel Partner</title>
+
 </head>
 <body>
     
@@ -17,11 +22,13 @@
        
 
         <ul class="nav-menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">About us</a></li>
-            <li><a href="excursion.html">excursion</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="excursion.html">Excursions</a></li>
+            <li><a href="transfer.html">Transfers</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+
         <div class="hamburger">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -49,6 +56,75 @@
                 
             </div>
 </section>
+
+<section class="about reveal" id="about">
+    <div class="about-img">
+        <img src="img/hero1.jpg" alt="Marrakech Streets">
+    </div>
+    <div class="about-content">
+        <div class="section-title" style="text-align: left;">
+            <h2>Who We Are</h2>
+            <div class="underline" style="margin: 0;"></div>
+        </div>
+        <h3>Your Gateway to the Heart of Morocco</h3>
+        <p>Travel Kech is more than just a travel agency; we are your local companions in Marrakech. With years of experience and a deep love for our city, we curate unforgettable experiences that go beyond the typical tourist path.</p>
+        <p>From the bustling souks of the Medina to the serene peaks of the Atlas Mountains, we ensure every moment of your journey is filled with magic and authenticity.</p>
+    </div>
+</section>
+
+<section class="services reveal">
+    <div class="section-title">
+        <h2>Our Services</h2>
+        <div class="underline"></div>
+    </div>
+    <div class="services-grid">
+        <div class="service-card">
+            <i class="fas fa-mountain"></i>
+            <h3>Guided Excursions</h3>
+            <p>Explore the hidden gems of Morocco with our local expert guides.</p>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-car"></i>
+            <h3>Luxury Transfers</h3>
+            <p>Comfortable and reliable transportation for all your travel needs.</p>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-hotel"></i>
+            <h3>Premium Stays</h3>
+            <p>Hand-picked riads and hotels to ensure your comfort and luxury.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Travel Kech</h3>
+            <p>Making your Marrakech dreams come true since 2010. Experience the magic of Morocco with us.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="excursion.html">Excursions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <ul>
+                <li><i class="fas fa-phone"></i> +212 600 000 000</li>
+                <li><i class="fas fa-envelope"></i> info@travelkech.com</li>
+                <li><i class="fas fa-map-marker-alt"></i> Medina, Marrakech, Morocco</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Travel Kech. All rights reserved.</p>
+    </div>
+</footer>
+
 <script src="/js/script.js"></script>
 </body>
 </html>

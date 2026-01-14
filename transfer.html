@@ -1,12 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Transfer</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/dist/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Transfers - Travel Kech</title>
 </head>
+
 <body>
-    <h1>Welcome to Travel Transfer</h1>
-    <p>Your journey starts here.</p>
+    <nav>
+        <div class="logo">
+            <img src="img/logo0.1-removebg-preview.png" alt="Logo" style="height: 90px;">
+            <h1>travel kech</h1>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About us</a></li>
+            <li><a href="excursion.html">Excursions</a></li>
+            <li><a href="transfer.html" class="active">Transfers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <header class="hero"
+        style="height: 40vh; background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/hero1.jpg');">
+        <div class="content" style="width: 50%;">
+            <h1>Airport & City Transfers</h1>
+            <p>Reliable, comfortable, and always on time</p>
+        </div>
+    </header>
+
+    <section class="transfers reveal">
+        <div class="section-title">
+            <h2>Our Transfer Services</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-plane-arrival"></i>
+                <h3>Airport Pick-up</h3>
+                <p>Start your holiday stress-free. Our driver will be waiting for you at the arrival hall.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-city"></i>
+                <h3>Inter-City Transfers</h3>
+                <p>Traverse between Moroccan cities (Casablanca, Fes, Agadir) in comfort and safety.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-clock"></i>
+                <h3>Hourly Hire</h3>
+                <p>Hire a private driver for a few hours or a whole day to explore at your own pace.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Travel Kech</h3>
+                <p>Making your Marrakech dreams come true since 2010. Experience the magic of Morocco with us.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="excursion.html">Excursions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-phone"></i> +212 600 000 000</li>
+                    <li><i class="fas fa-envelope"></i> info@travelkech.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Medina, Marrakech, Morocco</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Travel Kech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
 </body>
+
 </html>
